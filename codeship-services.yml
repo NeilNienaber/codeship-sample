@@ -1,6 +1,6 @@
 demo:
   build:
-    image: myapp
+    image: nienaberneil/codeship-sample
     dockerfile_path: Dockerfile
   links:
     - redis
