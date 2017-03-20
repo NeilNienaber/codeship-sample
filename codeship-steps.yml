@@ -2,7 +2,7 @@
   steps:
     - name: checkrb
       service: demo
-      command: bundle exec ruby check.rb
+      command: bundle exec ruby test.rb
     - name: test
       service: demo
       command: bundle exec ruby test.rb
